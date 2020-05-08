@@ -10,6 +10,8 @@ app = Flask(__name__)
 
 
 
+# views
+
 @main.route("/")
 def index():
    '''
